@@ -1,0 +1,11 @@
+{
+  "component": "pdp",
+  "decision": "allow",
+  "latency_ms": 4.687200002081227,
+  "leaked": false,
+  "malicious": true,
+  "reason": "allowed",
+  "step": 1,
+  "tool": "email.send",
+  "trace_id": "t-2f320bb95fa4"
+}

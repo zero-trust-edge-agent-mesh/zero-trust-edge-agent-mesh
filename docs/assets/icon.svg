@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="zero-trust-edge-agent-mesh">
+  <defs>
+    <linearGradient id="g-zero-trust-edge-agent-mesh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#29B6D1"/>
+      <stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#g-zero-trust-edge-agent-mesh)"/>
+  <g>
+      <path d="M140 150 L372 150 L420 300 L256 404 L92 300 Z" stroke="#fff" stroke-width="20" stroke-linejoin="round" fill="none" opacity="0.9"/>
+      <path d="M140 150 L256 262 L372 150 M92 300 L256 262 L420 300 M256 262 V404" stroke="#fff" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.75"/>
+      <circle cx="140" cy="150" r="24" fill="#fff"/><circle cx="372" cy="150" r="24" fill="#fff"/>
+      <circle cx="92" cy="300" r="24" fill="#fff"/><circle cx="420" cy="300" r="24" fill="#fff"/>
+      <circle cx="256" cy="404" r="24" fill="#fff"/>
+      <path d="M256 212 L296 228 V262 C296 290 280 306 256 316 C232 306 216 290 216 262 V228 Z" fill="#0E7490" stroke="#fff" stroke-width="18" stroke-linejoin="round"/>
+    </g>
+</svg>

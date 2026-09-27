@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-09-27T06:14:29Z",
+  "reports": {
+    "false": {
+      "counts": {
+        "attack_traces": 500,
+        "benign_traces": 500,
+        "blocked_attacks": 437,
+        "false_positives": 8,
+        "in_policy_attack_traces": 250,
+        "leaking_traces": 0,
+        "out_of_policy_attack_traces": 250,
+        "steps": 2000,
+        "traces": 1000
+      },
+      "latency_ms": {
+        "count": 2000,
+        "p50": 3.588399998989189,
+        "p95": 7.169435004834668,
+        "p95_ci": {
+          "high": 7.55711500205507,
+          "low": 6.841521120786636,
+          "point": 7.169435004834668
+        },
+        "p99": 11.90007300261641,
+        "p99_ci": {
+          "high": 13.166599994292483,
+          "low": 10.565173450662765,
+          "point": 11.90007300261641
+        }
+      },
+      "metrics": {
+        "attack_policy_slices": {
+          "in_policy": {
+            "attack_traces": 250,
+            "block_rate": {
+              "count": 191,
+              "high": 0.8123933189701072,
+              "low": 0.707616298896298,
+              "n": 250,
+              "point": 0.764
+            },
+            "leak_count": 0,
+            "leak_rate": {
+              "count": 0,
+              "high": 0.015133299495444574,
+              "low": 0.0,
+              "n": 250,
+              "point": 0.0
+            }
+          },
+          "out_of_policy": {
+            "attack_traces": 250,
+            "block_rate": {
+              "count": 246,
+              "high": 0.9937607754295287,
+              "low": 0.9595901906588807,
+              "n": 250,
+              "point": 0.984
+            },
+            "leak_count": 0,
+            "leak_rate": {
+              "count": 0,
+              "high": 0.015133299495444574,
+              "low": 0.0,
+              "n": 250,
+              "point": 0.0
+            }
+          }
+        },
+        "block_rate": {
+          "count": 437,
+          "high": 0.9002647110546229,
+          "low": 0.842032282280136,
+          "n": 500,
+          "point": 0.874
+        },
+        "false_positive_rate": {
+          "count": 8,
+          "high": 0.031251108533394266,
+          "low": 0.008129253033388312,
+          "n": 500,
+          "point": 0.016
+        },
+        "leak_count": 0,
+        "leak_rate": {
+          "count": 0,
+          "high": 0.003826758485555124,
+          "low": 0.0,
+          "n": 1000,
+          "point": 0.0
+        },
+        "wilson_n_is_distinct_traces": true
+      },
+      "settings": {
+        "provide_issued_secrets": false
+      }
+    },
+    "true": {
+      "counts": {
+        "attack_traces": 500,
+        "benign_traces": 500,
+        "blocked_attacks": 437,
+        "false_positives": 8,
+        "in_policy_attack_traces": 250,
+        "leaking_traces": 0,
+        "out_of_policy_attack_traces": 250,
+        "steps": 2000,
+        "traces": 1000
+      },
+      "latency_ms": {
+        "count": 2000,
+        "p50": 3.8435999958892353,
+        "p95": 8.749534999151358,
+        "p95_ci": {
+          "high": 9.617510372672763,
+          "low": 8.122883252217433,
+          "point": 8.749534999151358
+        },
+        "p99": 15.644711004424607,
+        "p99_ci": {
+          "high": 16.865300000063144,
+          "low": 13.478093998201073,
+          "point": 15.644711004424607
+        }
+      },
+      "metrics": {
+        "attack_policy_slices": {
+          "in_policy": {
+            "attack_traces": 250,
+            "block_rate": {
+              "count": 191,
+              "high": 0.8123933189701072,
+              "low": 0.707616298896298,
+              "n": 250,
+              "point": 0.764
+            },
+            "leak_count": 0,
+            "leak_rate": {
+              "count": 0,
+              "high": 0.015133299495444574,
+              "low": 0.0,
+              "n": 250,
+              "point": 0.0
+            }
+          },
+          "out_of_policy": {
+            "attack_traces": 250,
+            "block_rate": {
+              "count": 246,
+              "high": 0.9937607754295287,
+              "low": 0.9595901906588807,
+              "n": 250,
+              "point": 0.984
+            },
+            "leak_count": 0,
+            "leak_rate": {
+              "count": 0,
+              "high": 0.015133299495444574,
+              "low": 0.0,
+              "n": 250,
+              "point": 0.0
+            }
+          }
+        },
+        "block_rate": {
+          "count": 437,
+          "high": 0.9002647110546229,
+          "low": 0.842032282280136,
+          "n": 500,
+          "point": 0.874
+        },
+        "false_positive_rate": {
+          "count": 8,
+          "high": 0.031251108533394266,
+          "low": 0.008129253033388312,
+          "n": 500,
+          "point": 0.016
+        },
+        "leak_count": 0,
+        "leak_rate": {
+          "count": 0,
+          "high": 0.003826758485555124,
+          "low": 0.0,
+          "n": 1000,
+          "point": 0.0
+        },
+        "wilson_n_is_distinct_traces": true
+      },
+      "settings": {
+        "provide_issued_secrets": true
+      }
+    }
+  },
+  "split": "test",
+  "test_jsonl_sha256": "d065bab9bed145490579cd7add6a574c6e23c21c0ea4525dc1c14b0fc15acd2b"
+}

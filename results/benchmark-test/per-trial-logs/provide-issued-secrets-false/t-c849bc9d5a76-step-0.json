@@ -1,0 +1,11 @@
+{
+  "component": "pdp",
+  "decision": "allow",
+  "latency_ms": 4.970499998307787,
+  "leaked": false,
+  "malicious": false,
+  "reason": "allowed",
+  "step": 0,
+  "tool": "http.get",
+  "trace_id": "t-c849bc9d5a76"
+}

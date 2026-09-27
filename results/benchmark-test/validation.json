@@ -1,0 +1,7 @@
+{
+  "mypy": "passed",
+  "native_coverage_percent": 91,
+  "native_tests": "125 passed, 5 skipped",
+  "ruff": "passed",
+  "ruff_format": "passed"
+}

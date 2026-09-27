@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Zero Trust Edge Agent Mesh"
+message: "If you use this software, please cite it using this metadata."
+type: software
+authors:
+  - family-names: Sawant
+    given-names: Parag
+repository-code: "https://github.com/zero-trust-edge-agent-mesh/zero-trust-edge-agent-mesh"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-09-25

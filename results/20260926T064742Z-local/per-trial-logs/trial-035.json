@@ -1,0 +1,7 @@
+{
+  "latency_ms": 4.644600034225732,
+  "metric": "svid_issue",
+  "spiffe_id": "spiffe://acme.test/site/edge-a/agent/agent-35",
+  "timestamp_utc": "2026-09-26T06:47:42.359338+00:00",
+  "trial": 35
+}

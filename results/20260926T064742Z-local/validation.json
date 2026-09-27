@@ -1,0 +1,16 @@
+{
+  "container_command": "python:3.12-slim running scripts/check.sh",
+  "container_coverage_percent": "92.26",
+  "container_tests": "119 passed, 6 skipped",
+  "integration_command": "RUN_INTEGRATION_TESTS=1 python -m pytest -q -m integration tests/test_integration_docker.py",
+  "integration_tests": "5 passed",
+  "native_commands": [
+    "python -m ruff check .",
+    "python -m ruff format --check .",
+    "python -m mypy src",
+    "python -m pytest -q --cov=zero_trust_edge_agent_mesh --cov-report=term-missing --cov-fail-under=90"
+  ],
+  "native_coverage_percent": "91.44",
+  "native_tests": "120 passed, 5 skipped",
+  "tlc": "145585 generated states, 11024 distinct states, depth 10, 0 violations"
+}

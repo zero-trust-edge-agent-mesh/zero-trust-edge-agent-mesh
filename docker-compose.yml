@@ -1,0 +1,7 @@
+services:
+  spire-server:
+    image: ghcr.io/spiffe/spire-server:1.13.3
+    command: ["--help"]
+  opa:
+    image: openpolicyagent/opa:1.10.1-static
+    command: ["version"]

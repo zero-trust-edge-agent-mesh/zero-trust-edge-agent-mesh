@@ -1,0 +1,11 @@
+{
+  "component": "sidecar",
+  "decision": "deny",
+  "latency_ms": 3.2624000014038756,
+  "leaked": false,
+  "malicious": true,
+  "reason": "untrusted_delegation",
+  "step": 1,
+  "tool": "email.send",
+  "trace_id": "t-91a21c537fa5"
+}
